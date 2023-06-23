@@ -1,0 +1,9 @@
+[submodule "FMS"]
+	path = FMS
+	url = ./FMS
+[submodule "GFDL_atmos_cubed_sphere"]
+	path = GFDL_atmos_cubed_sphere
+	url = ./GFDL_atmos_cubed_sphere/
+[submodule "MAPL"]
+	path = MAPL
+	url = ./MAPL
