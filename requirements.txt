@@ -1,4 +1,0 @@
-colorama==0.4.6
-fortdepend==2.1.0
-fypp==3.1
-pcpp==1.30
