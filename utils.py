@@ -64,9 +64,9 @@ def getFortranFilesInDirectory(directory):
     return filepaths
 
 def preprocessFortranFile(outputFile, inputFile, definitions, includeSearchPaths):
-    """ Runs the gfortran preprocessor on the input file, skipping expansion of `#include`
+    """ Runs the gfortran preprocessor on the input file, skipping expansion of `#include` directives when includeSearchPaths aren't provided
     
-    Example: preprocessFortranFile(outFile, inFile, "-D NAME -D KEY=VALUE")
+    Example: preprocessFortranFile(outFile, inFile, "-D NAME -D KEY=VALUE", ["path/to/dir1", "path/to/dir2"])
     """
 
     skipIncludes = len(includeSearchPaths) == 0
